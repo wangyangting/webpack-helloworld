@@ -1,0 +1,28 @@
+{
+  "name": "webpack-helloworld",
+  "version": "1.0.0",
+  "description": "webpack helloworld",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --moode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangyangting/webpack-helloworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangyangting/webpack-helloworld/issues"
+  },
+  "homepage": "https://github.com/wangyangting/webpack-helloworld#readme",
+  "devDependencies": {
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
